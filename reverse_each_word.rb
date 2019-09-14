@@ -10,6 +10,7 @@ def reverse_each_word(sentence)
   puts sentence
 
   sentence_array = sentence.split
+
   puts "\nsentence after split"
   puts sentence_array
   
