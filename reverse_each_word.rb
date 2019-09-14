@@ -24,7 +24,7 @@ def reverse_each_word(sentence)
   puts "\nreversed_sentence"
   puts reversed_sentence
   
-  return reversed_sentence
+  # return reversed_sentence
 end
 
 
