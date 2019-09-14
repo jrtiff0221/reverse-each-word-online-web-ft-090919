@@ -8,14 +8,14 @@ def reverse_each_word(sentence)
   
   puts "sentence before split"
   puts sentence
-  puts "\n"
+
   sentence_array = sentence.split
-  puts "sentence after split"
+  puts "\nsentence after split"
   puts sentence_array
   
   reversed_word_array = sentence_array.collect { |word| word.reverse }
   
-  puts "reversed_word_array"
+  puts "\nreversed_word_array"
   puts reversed_word_array
   
   
