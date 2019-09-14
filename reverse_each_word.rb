@@ -4,7 +4,7 @@
 
   #return reverse_array.join(" ")
   
-#end
+#end each doesn't output a new array. 
 
 def reverse_each_word(sentence)
   return sentence.split.collect {|word| word.reverse}.join(" ")
