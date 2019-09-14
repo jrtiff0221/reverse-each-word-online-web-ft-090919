@@ -24,11 +24,12 @@ def reverse_each_word(sentence)
   puts "\nreversed_sentence"
   puts reversed_sentence
   
-  # return reversed_sentence
+  return reversed_sentence
 end
 
 
 test_sentance = "screw this task"
 
+new_sentence = reverse_each_word(test_sentance)
 
-# puts reverse_each_word()
+puts new_sentence
