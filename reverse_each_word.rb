@@ -1,6 +1,8 @@
 def reverse_each_word(sentence)
-  sentence.split
+  sentence.split.collect {|word| }
+
 end
+
 
 test_sentance = "screw this task"
 
