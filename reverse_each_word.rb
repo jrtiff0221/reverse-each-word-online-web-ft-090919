@@ -1,13 +1,13 @@
 def reverse_each(sentence)
   reverse_array = []
   sentence.split.each { |word| reverse_array << word.reverse }
-  
+
   return reverse_array.join(" ")
   
 end
 
 def reverse_each_word(sentence)
-  sentence.split.collect {|word| word.reverse}.join(" ")
+  return sentence.split.collect {|word| word.reverse}.join(" ")
 end
 
 
