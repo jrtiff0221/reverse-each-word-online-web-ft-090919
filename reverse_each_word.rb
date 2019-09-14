@@ -29,4 +29,7 @@ test_sentance = "screw this task"
 
 new_sentence = reverse_each_word(test_sentance)
 
+puts "new_sentence ="
 puts new_sentence
+
+flip_it_back_sentence = reverse_each_word(new_sentence)
