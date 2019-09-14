@@ -6,4 +6,4 @@ end
 
 test_sentance = "screw this task"
 
-puts reverse_each_word(test_sentance)
+puts reverse_each_word("another test sentence")
