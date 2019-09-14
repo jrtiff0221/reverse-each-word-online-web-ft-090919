@@ -41,3 +41,6 @@ flip_it_back_sentence = reverse_each_word(new_sentence)
 
 puts "\nflip_it_back_sentence ="
 puts flip_it_back_sentence
+
+puts "\nflip_it_back_sentence == test_sentance"
+puts flip_it_back_sentence == test_sentance
