@@ -1,17 +1,17 @@
-def reverse_each_word(sentence)
-  reverse_array = []
-  sentence.split.each { |word| reverse_array << word.reverse }
-
-  return reverse_array.join(" ")
-  
-end
-
 #def reverse_each_word(sentence)
-  #return sentence.split.collect {|word| word.reverse}.join(" ")
+  #reverse_array = []
+  #sentence.split.each { |word| reverse_array << word.reverse }
+
+  #return reverse_array.join(" ")
+  
 #end
 
+def reverse_each_word(sentence)
+  return sentence.split.collect {|word| word.reverse}.join(" ")
+end
 
-#test_sentance = "screw this task"
+
+test_sentance = "screw this task"
 
 #puts "test_sentence ="
 #puts test_sentance
