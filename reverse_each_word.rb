@@ -8,7 +8,7 @@ def reverse_each_word(sentence)
   
   puts "sentence before split"
   puts sentence
-  
+  puts "\n"
   sentence_array = sentence.split
   
   puts sentence_array
@@ -16,5 +16,6 @@ end
 
 
 test_sentance = "screw this task"
+
 
 puts reverse_each_word("another test sentence")
