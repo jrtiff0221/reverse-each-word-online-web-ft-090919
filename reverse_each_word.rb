@@ -19,7 +19,10 @@ def reverse_each_word(sentence)
   puts "\nreversed_word_array"
   puts reversed_word_array
   
+  reversed_sentence = reversed_word_array.join(" ")
   
+  puts "\nreversed_word_array"
+  puts reversed_word_array
 end
 
 
