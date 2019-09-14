@@ -11,7 +11,7 @@ def reverse_each_word(sentence)
 end
 
 
-test_sentance = "screw this task"
+test_sentance = "this is a test sentence"
 
 #puts "test_sentence ="
 #puts test_sentance
